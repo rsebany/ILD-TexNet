@@ -1,6 +1,6 @@
 <div align="center">
 
-# TexNet
+# ILD-TexNet
 
 **A compact multi-scale texture network for six-class ILD pattern classification on 32x32 HRCT patches**
 
@@ -11,7 +11,7 @@
 
 </div>
 
-TexNet is a multi-scale texture network for interstitial lung disease (ILD) pattern classification on high-resolution CT patches. ~0.25M parameters, trained from scratch, no pretraining. Manuscript and benchmark: [TexNet](https://github.com/rsebany/TexNet).
+ILD-TexNet is a multi-scale texture network for interstitial lung disease (ILD) pattern classification on high-resolution CT patches. ~0.25M parameters, trained from scratch, no pretraining. Manuscript and benchmark: [TexNet](https://github.com/rsebany/TexNet).
 
 | Component | Role |
 |-----------|------|
@@ -36,7 +36,7 @@ python main.py
 # or, after install: ildexnet [--device cuda --json report.json]
 ```
 
-Pretrained weights (trained from scratch on MedGIFT HRCT patches): [ILDTexNet.pth](https://github.com/rsebany/TexNet/releases/download/v1.0.0/ILDTexNet.pth)
+Pretrained weights (trained from scratch on MedGIFT HRCT patches): [ILDTexNet.pth](https://github.com/rsebany/ILD-TexNet/releases/download/v1.0.0/ILDTexNet.pth)
 
 Architecture flags (`--stem-ch`, `--growth`, `--layers`, `--no-multiscale`, `--block bottleneck`, `--no-attn-pool`, ...) mirror `ILDEXNET_*` environment variables in `ildexnet/config.py`.
 
