@@ -1,0 +1,55 @@
+cff-version: 1.2.0
+title: "TexNet: A compact multi-scale texture network for ILD pattern classification"
+message: "If you use this software, please cite it as below."
+type: software
+authors:
+  - family-names: Sebany
+    given-names: Romualdo
+    email: romualdosebany@gmail.com
+  - family-names: Benbelkacem
+    given-names: Samir
+  - family-names: Ykhlef
+    given-names: Hadjer
+  - family-names: Ykhlef
+    given-names: Fayçal
+  - family-names: Agaian
+    given-names: Sos
+  - family-names: Masmoudi
+    given-names: Mostefa
+  - family-names: Zenati-Henda
+    given-names: Nadia
+  - family-names: Taright
+    given-names: Samya
+repository-code: "https://github.com/rsebany/ILD-TexNet"
+url: "https://github.com/rsebany/ILD-TexNet"
+version: 1.0.0
+license: MIT
+keywords:
+  - interstitial-lung-disease
+  - deep-learning
+  - pytorch
+  - texture
+  - medical-imaging
+preferred-citation:
+  type: article
+  title: "Patient-Disjoint Evaluation of Compact Texture Networks for Interstitial Lung Disease Classification"
+  authors:
+    - family-names: Sebany
+      given-names: Romualdo
+    - family-names: Benbelkacem
+      given-names: Samir
+    - family-names: Ykhlef
+      given-names: Hadjer
+    - family-names: Ykhlef
+      given-names: Fayçal
+    - family-names: Agaian
+      given-names: Sos
+    - family-names: Masmoudi
+      given-names: Mostefa
+    - family-names: Zenati-Henda
+      given-names: Nadia
+    - family-names: Taright
+      given-names: Samya
+  journal: "IEEE Journal of Biomedical and Health Informatics"
+  year: 2026
+  notes: "Submitted"
