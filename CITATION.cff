@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-title: "TexNet: A compact multi-scale texture network for ILD pattern classification"
+title: "ILD-TexNet: A compact multi-scale texture network for ILD pattern classification"
 message: "If you use this software, please cite it as below."
 type: software
 authors:
@@ -22,7 +22,7 @@ authors:
     given-names: Samya
 repository-code: "https://github.com/rsebany/ILD-TexNet"
 url: "https://github.com/rsebany/ILD-TexNet"
-version: 1.0.0
+version: 1.0.1
 license: MIT
 keywords:
   - interstitial-lung-disease

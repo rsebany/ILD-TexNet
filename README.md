@@ -7,7 +7,7 @@
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.0-ee4c2c)
-[![Release](https://img.shields.io/badge/Release-v1.0.0-green)](https://github.com/rsebany/ILD-TexNet/releases/tag/v1.0.0)
+[![Release](https://img.shields.io/badge/Release-v1.0.1-green)](https://github.com/rsebany/ILD-TexNet/releases/tag/v1.0.1)
 
 </div>
 
@@ -36,7 +36,7 @@ python main.py
 # or, after install: ildexnet [--device cuda --json report.json]
 ```
 
-Pretrained weights (trained from scratch on MedGIFT HRCT patches): [ILDTexNet.pth](https://github.com/rsebany/ILD-TexNet/releases/download/v1.0.0/ILDTexNet.pth)
+Pretrained weights (trained from scratch on MedGIFT HRCT patches): [ILDTexNet.pth](https://github.com/rsebany/ILD-TexNet/releases/download/v1.0.1/ILDTexNet.pth)
 
 The released `ILDTexNet.pth` is a checkpoint that also records the run's provenance
 (`state_dict`, `arch_kwargs`, `class_names`, `protocol`, `seed`, `fold`,
@@ -82,7 +82,7 @@ This repository ships the **ILD-TexNet architecture**, inspection utilities (par
 ## Tests
 
 ```bash
-pip install pytest
+pip install -e ".[dev]"
 pytest -q
 ```
 

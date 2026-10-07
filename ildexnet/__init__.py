@@ -6,7 +6,7 @@ pretrained-weight loading at the call site. Training, evaluation, and the
 patient-disjoint leakage benchmark are not included in this repository.
 """
 
-__version__ = "1.0.0"
+__version__ = "1.0.1"
 
 from ildexnet.models.ildexnet import ILDTexNet  # noqa: E402,F401
 

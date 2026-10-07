@@ -20,7 +20,7 @@ from ildexnet.models import ILDTexNet
 
 DESCRIPTION = (
     "ILD-TexNet: build and inspect the proposed compact texture network "
-    "(https://github.com/rsebany/TexNet)."
+    "(https://github.com/rsebany/ILD-TexNet)."
 )
 
 
